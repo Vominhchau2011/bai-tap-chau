@@ -24,6 +24,7 @@
 .menu{
     width: 50%;
     margin: auto;
+
 }
 ul.list_menu li{
     float: left;
@@ -97,11 +98,11 @@ ul.list_menu li:hover ul.subhome{
     height: 250px;
     display: flex;
     flex-direction: row;
-    column-gap: 5px;
+    padding: 0px 200px;
 }
 .Show_wrapper{
-    margin: auto;
     text-align: center;
+    margin: auto;
     line-height: 1.5;
     word-spacing: -5px;
 }
@@ -110,6 +111,7 @@ ul.list_menu li:hover ul.subhome{
     padding-bottom: 15px;
     padding-top: 10px;
 }
+
 .Show_wrapper h3{
     margin-top: 5px;
     letter-spacing: -1px;
@@ -129,7 +131,7 @@ ul.list_menu li:hover ul.subhome{
     line-height: 1.5;
     word-spacing: -5px;
     padding-top: 100px;
-    padding-left: 350px;
+    padding-left: 200px;
 }
 .text_about p{
     font-size: 15px;
@@ -137,11 +139,11 @@ ul.list_menu li:hover ul.subhome{
 .img_about{
     width: 50%;
     text-align: center;
-    padding-right: 300px;
-    padding-top: 80px;
+    display: block;
+    margin: auto;
 }
 .img_about img{
-    width: 40%;
+    width: 30%;
 }
 .email{
     height: 100px;
@@ -175,8 +177,11 @@ ul.list_menu li:hover ul.subhome{
 }
 .text_dis{
     text-align: left;
-    padding-left: 180px;
     line-height: 1;
+    border: 1px solid white;
+    margin:auto ;
+    padding: 10px;
+
 }
 .text_dis li{
     list-style: none;
